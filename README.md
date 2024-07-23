@@ -16,6 +16,8 @@ To improve model performance, the training data was augmented using various tech
 
 ## Model
 The CNN model is inspired by the VGG16 architecture, known for its depth and use of small convolution filters. The model is implemented in PyTorch and consists of multiple convolutional layers followed by max-pooling layers, culminating in fully connected layers. Here is a summary of the model architecture:
+![my_architecture](https://github.com/user-attachments/assets/5ead2e72-ab35-475b-9a89-39bd539b4de2)
+
 
 ## Details
 
