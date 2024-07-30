@@ -1,4 +1,4 @@
-# Picture Classificatoin on the CIFAR10 Dataset
+# Picture Classification on the CIFAR10 Dataset
 
 ## Overview
 This repository demonstrates an implementation of a Convolutional Neural Network (CNN) for classifying images in the CIFAR-10 dataset. The model architecture is inspired by VGG16 and implemented using PyTorch.
