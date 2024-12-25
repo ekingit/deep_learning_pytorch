@@ -1,31 +1,27 @@
-# Picture Classification on the CIFAR10 Dataset
+# CIFAR-10 Image Classification Project
 
-## Overview
-This repository demonstrates an implementation of a Convolutional Neural Network (CNN) for classifying images in the CIFAR-10 dataset. The model architecture is inspired by VGG16 and implemented using PyTorch.
+This repository contains three Jupyter notebooks demonstrating different approaches to image classification on the CIFAR-10 dataset. Each approach leverages a unique architecture, ranging from a custom convolutional neural network to state-of-the-art pretrained models.
 
+## Project Overview
 
-## Aim
-The primary objective of this learning project is to develop and train a CNN model to achieve high accuracy in classifying images from the CIFAR-10 dataset into 10 distinct categories. This project serves as a hands-on experience to deepen understanding of deep learning concepts and CNNs.
+The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, with 6,000 images per class. The goal of this project is to classify these images into their respective categories using various deep learning models.
 
-## Data
-The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, with 6,000 images per class. The dataset is divided into 50,000 training images and 10,000 test images. Each image is a 3x32x32 tensor representing the Red, Green, and Blue (RGB) channels, along with a label ranging from 0 to 9 indicating the class. 
+### Notebooks
 
-## Data Augmentation
-To improve model performance, the training data was augmented using various techniques such as random cropping, horizontal flipping, and normalization. This helps in increasing the diversity of the training data and reducing overfitting.
+#### 1. **VGG-16-like Architecture (Built from Scratch)**
 
+- Implements a custom VGG-16-inspired convolutional neural network architecture.
+- Designed and trained from scratch specifically for the CIFAR-10 dataset.
 
-## Model
-The CNN model is inspired by the VGG16 architecture, known for its depth and use of small convolution filters. The model is implemented in PyTorch and consists of multiple convolutional layers followed by max-pooling layers, culminating in fully connected layers. Here is a summary of the model architecture:
-![my_architecture](https://github.com/user-attachments/assets/5ead2e72-ab35-475b-9a89-39bd539b4de2)
+#### 2. **ResNet-18 (Pretrained on ImageNet)**
 
+- Fine-tunes a ResNet-18 model pretrained on the ImageNet dataset for CIFAR-10 classification.
+- Trains a randomly initialized ResNet-18 model for comparison.
 
-## Details
+#### 3. **Vision Transformer (Pretrained on ImageNet)**
 
- - Epochs: 50
- - Activation Functions: ReLU (Rectified Linear Unit) in the hidden layers and Log-Softmax for classification
- - Loss Function: Cross-Entropy Loss
- - Optimizer: Stochastic Gradient Descent optimizer (with learning rate=0.01, momentum=0.9)
-
-## Results
-The model achieved an accuracy of 85% on the CIFAR-10 test set, demonstrating its effectiveness in image classification tasks.
+- Fine-tunes a Vision Transformer (ViT) model pretrained on the ImageNet dataset for CIFAR-10 classification.
+- Utilizes self-attention mechanisms to capture global image features.
+- Adapts the pretrained ViT model to handle the smaller size and specific characteristics of CIFAR-10.
+- Demonstrates cutting-edge transformer-based architecture performance on image classification tasks.
 
