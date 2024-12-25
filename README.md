@@ -1,4 +1,4 @@
-# CIFAR-10 Image Classification Project
+# CIFAR-10 Image Classification
 
 This repository contains three Jupyter notebooks demonstrating different approaches to image classification on the CIFAR-10 dataset. Each approach leverages a unique architecture, ranging from a custom convolutional neural network to state-of-the-art pretrained models.
 
