@@ -11,7 +11,7 @@ The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, with 6
 #### 1. **VGG-16-like Architecture (Built from Scratch)**
 
 - Implements a custom VGG-16-inspired convolutional neural network architecture.
-- Designed and trained from scratch specifically for the CIFAR-10 dataset.
+- Designed and trained from scratch for the CIFAR-10 dataset.
 
 #### 2. **ResNet-18 (Pretrained on ImageNet)**
 
