@@ -1,4 +1,4 @@
-## CIFAR-10 Image Classification
+# 1. CIFAR-10 Image Classification
 
 This folder contains three Jupyter notebooks that explore different deep learning models to image classification on the CIFAR-10 dataset. Each notebook leverages a unique architecture, ranging from a custom convolutional neural network to state-of-the-art pretrained models.
 
@@ -8,24 +8,24 @@ The [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset consists of 
 
 **Models**
 
-1. **VGG-16-like Architecture (Built from Scratch)**
+i) **VGG-16-like Architecture (Built from Scratch)**
 
 - Implements a custom VGG-16-inspired convolutional neural network architecture.
 - Designed and trained from scratch for the CIFAR-10 dataset.
 
-2. **ResNet-18 (Pretrained on ImageNet)**
+ii) **ResNet-18 (Pretrained on ImageNet)**
 
 - Fine-tunes a ResNet-18 model pretrained on the ImageNet dataset for CIFAR-10 classification.
 - Trains a randomly initialized ResNet-18 model for comparison.
 
-3. **Vision Transformer (Pretrained on ImageNet)**
+iii) **Vision Transformer (Pretrained on ImageNet)**
 
 - Fine-tunes a Vision Transformer (ViT) model pretrained on the ImageNet dataset for CIFAR-10 classification.
 - Utilizes self-attention mechanisms to capture global image features.
 - Adapts the pretrained ViT model to handle the smaller size and specific characteristics of CIFAR-10.
 - Demonstrates cutting-edge transformer-based architecture performance on image classification tasks.
 
-## Brain Tumor Classification
+# 2. Brain Tumor Classification
 
 This project focuses on classifying brain tumor types using the [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset). Two state-of-the-art architectures, Vision Transformers (ViT) and ResNet, are compared to evaluate their performance.
 
