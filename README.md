@@ -1,22 +1,25 @@
 ## Table of Contents  
 
-1. [Regression](#Regression)  
-2. [Computer Vision - Classification](#Computer-Vision---Classification)  
-   2.1 [CIFAR-10 Image Classification](#CIFAR-10-Image-Classification)  
-   2.2 [Brain Tumor Classification](#Brain-Tumor-Classification)  
-3. [Time Series - Forecasting](#Time-Series---Forecasting)  
+- [1. Regression](#1-regression)  
+  - [1.1 Predicting House Prices](#11-predicting-house-prices)  
+- [2. Computer Vision - Classification](#2-computer-vision---classification)  
+  - [2.1 CIFAR-10 Image Classification](#21-cifar-10-image-classification)  
+  - [2.2 Brain Tumor Classification](#22-brain-tumor-classification)  
+- [3. Time Series - Forecasting](#3-time-series---forecasting)  
+  - [3.1 Weather Forecasting](#31-weather-forecasting)
 
-# Regression
 
-## Predicting House Prices
+# 1. Regression
+
+## 1.1 Predicting House Prices
 
 **Dataset:** The [Dataset](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) comprises 1,460 entries and features, detailing various house properties and their corresponding sale prices. 
 
 **Aim:** Build a regression model to predict house sale prices based on their property features.
 
-# Computer Vision - Classification
+# 2. Computer Vision - Classification
 
-## CIFAR-10 Image Classification
+## 2.1 CIFAR-10 Image Classification
 
 This folder contains three Jupyter notebooks that explore different deep learning models to image classification on the CIFAR-10 dataset. Each notebook leverages a unique architecture, ranging from a custom convolutional neural network to state-of-the-art pretrained models.
 
@@ -40,7 +43,7 @@ iii) **Vision Transformer (Pretrained on ImageNet)**
 - Utilizes self-attention mechanisms to capture global image features.
 - Adapts the pretrained ViT model to handle the smaller size and specific characteristics of CIFAR-10.
 
-## Brain Tumor Classification
+## 2.2 Brain Tumor Classification
 
 This project focuses on classifying brain tumor types using the [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset). Two state-of-the-art architectures, Vision Transformers (ViT) and ResNet, are compared to evaluate their performance.
 
@@ -50,9 +53,9 @@ This project focuses on classifying brain tumor types using the [Brain Tumor MRI
   - **ResNet50:** Achieves 95.7% accuracy on the test set.
 - **Pretraining and Training:** Both models use ImageNet pretrained weights and are fine-tuned on the dataset.
 
-# Time Series - Forecasting
+# 3. Time Series - Forecasting
 
-## Weather Forecasting
+## 3.1 Weather Forecasting
 
 **Dataset:** The [Dataset](https://github.com/florian-huber/weather_prediction_dataset) contains daily recorded weather data from 2000 to 2010 for 18 European cities. For this project, we focus on the maximum temperature in Basel.
 
@@ -80,4 +83,4 @@ This project focuses on classifying brain tumor types using the [Brain Tumor MRI
  - Enhance the complexity and robustness of the local LSTM by introducing additional linear layers together with layer normalization, and residual maps.
 
 **Results:** The local model, hybrid model, regularized local model and moving average are compared on the test set using mean squared error (MSE) as the loss function. Combining the local model with the global model resulted in improved model performance.
-![Table1: Local Model, Hybrid Model, Moving Avarage - 7 days prediction MSE](https://github.com/ekingit/DeepForecast/blob/main/weather_application/Results/daily_loss.png)
+![Table1: Local Model, Hybrid Model, Moving Avarage - 7 days prediction MSE](Time-Series---Forecasting/Results/daily_loss.png)
