@@ -17,6 +17,8 @@
 
 **Aim:** Build a regression model to predict house sale prices based on their property features.
 
+**Model:** A four-layer multi-layer perceptron (MLP). 
+
 # 2. Computer Vision - Classification
 
 ## 2.1 CIFAR-10 Image Classification
@@ -25,7 +27,7 @@ This folder contains three Jupyter notebooks that explore different deep learnin
 
 **Dataset:** The [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset consists of 60,000 32x32 color images in 10 classes, with 6,000 images per class. The goal of this project is to classify these images into their respective categories using various deep learning models.
 
-**Models**
+**Models:**
 
 i) **VGG-16-like Architecture (Built from Scratch)**
 
@@ -45,13 +47,15 @@ iii) **Vision Transformer (Pretrained on ImageNet)**
 
 ## 2.2 Brain Tumor Classification
 
-This project focuses on classifying brain tumor types using the [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset). Two state-of-the-art architectures, Vision Transformers (ViT) and ResNet, are compared to evaluate their performance.
+This project focuses on classifying brain tumor types using the Brain Tumor MRI Dataset. Two state-of-the-art architectures, Vision Transformers (ViT) and ResNet, are compared to evaluate their performance.
 
-- **Dataset:** Brain Tumor MRI Dataset
-- **Models:**
-  - **Vision Transformer (ViT):** Achieves 96.72% accuracy on the test set.
-  - **ResNet50:** Achieves 95.7% accuracy on the test set.
-- **Pretraining and Training:** Both models use ImageNet pretrained weights and are fine-tuned on the dataset.
+**Dataset:** The [Brain Tumor MRI dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) consists of 7,023 images, each labeled into one of four categories: 'glioma,' 'meningioma,' 'pituitary,' or 'no tumor.'
+
+**Models:**
+- **Vision Transformer (ViT):** Achieves 96.72% accuracy on the test set.
+- **ResNet50:** Achieves 95.7% accuracy on the test set.
+  
+**Pretraining and Training:** Both models use ImageNet pretrained weights and are fine-tuned on the dataset.
 
 # 3. Time Series - Forecasting
 
