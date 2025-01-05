@@ -13,7 +13,7 @@
 
 ## 1.1 Predicting House Prices
 
-**Dataset:** The [Dataset](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) comprises 1,460 entries and features, detailing various house properties and their corresponding sale prices. 
+**Dataset:** The [dataset](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) comprises 1,460 entries and features, detailing various house properties and their corresponding sale prices. 
 
 **Aim:** Build a regression model to predict house sale prices based on their property features.
 
@@ -57,7 +57,7 @@ This project focuses on classifying brain tumor types using the [Brain Tumor MRI
 
 ## 3.1 Weather Forecasting
 
-**Dataset:** The [Dataset](https://github.com/florian-huber/weather_prediction_dataset) contains daily recorded weather data from 2000 to 2010 for 18 European cities. For this project, we focus on the maximum temperature in Basel.
+**Dataset:** The [dataset](https://github.com/florian-huber/weather_prediction_dataset) contains daily recorded weather data from 2000 to 2010 for 18 European cities. For this project, we focus on the maximum temperature in Basel.
 
 **Aim:** Develop models to predict 7-day weather forecasts from scratch and compare performance.
 
